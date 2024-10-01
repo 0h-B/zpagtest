@@ -46,7 +46,7 @@ header {
   margin-left: 20px;
 }
 
-.nav-links li :hover {
+.nav-links li:hover {
   color: #f5d751;
 }
 
