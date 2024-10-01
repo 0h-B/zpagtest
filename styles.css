@@ -13,6 +13,10 @@ body {
   line-height: 1.6;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 header {
   background-color: #000000;
   color: white;
@@ -148,17 +152,6 @@ header {
   margin-bottom: 1rem;
 }
 
-.contact a {
-  font-size: 1.2rem;
-  color: #333;
-  text-decoration: none;
-}
-
-.contact a:hover {
-  color: #555;
-  text-decoration: underline;
-}
-
 .modal {
   display: none;
   position: fixed;
@@ -183,6 +176,7 @@ header {
 }
 
 #caption {
+  position: relative; /*move a legenda*/
   margin: auto;
   text-align: center;
   color: #ccc;
@@ -208,7 +202,6 @@ header {
 }
 
 .zoomed {
-  transform: scale(2);
   cursor: zoom-out;
 }
 
